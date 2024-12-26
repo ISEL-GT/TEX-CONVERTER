@@ -3,25 +3,21 @@
 </p>
 
 
-## PROJECT NAME
+## FILE TO TEX CONVERTER
 
 ### Summary
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-###### You can find the project brief for this assignment in the [briefing](docs/assignment.pdf) file.
-
+> This program takes any given source and converts it into a `.tex` compatible file, to be included in LaTEX projects.
 
 ---
 
-### **Requirements**
-- **Kotlin Compiler**: [Download here](https://kotlinlang.org/docs/command-line.html)
-- **JDK 22**: [Download here](https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html)
-- Any other software needed to run the project.
-
----
-
-### Acknowledgements
-- Mention any people that greatly helped us complete the project, and/or made it possible.
-- Mention any resources that we used to complete this project.
+### Usage
+Firstly, download the [tex-converter.exe](https://github.com/ISEL-GT/TEX-CONVERTER/releases) file from the downloads page. Afterwards, run the following command:
+```
+$ tex-converter.exe --source /path/to/source/directory --output /path/to/output/directory
+```
+The program will then convert every file in the source directory, copying its relative location to the source and outputting a replica of the source directory structure with the converted files.
+<br><br>
+**NOTE:** `--source` defaults to the current working directory, and  `--output` defaults to `./out/`, if not specified.
 
 ---
 
@@ -30,6 +26,3 @@
 | Contributor        | Email                      |
 |--------------------|----------------------------|
 | Alexandre Silva    | alexandresilva.coding@gmail.com     |
-| Daniel Viegas      | viegasdaniel111@gmail.com       |
-| Duarte Rodrigues   | duarte.afonso.rodrigues@gmail.com    |
-
