@@ -42,7 +42,7 @@ If not specified, the default values will be used:
 - `--output` defaults to `./out/`.
 - `--filter` defaults to no filter (all files are considered).
 - `--overleaf-path` defaults to `vhdl/`.
-- 
+
 ---
 
 ### Contacts
