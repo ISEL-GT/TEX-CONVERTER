@@ -1,0 +1,33 @@
+\usepackage{indentfirst}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Define VHDL style
+\lstdefinelanguage{VHDL}{
+  keywords={
+    library, use, entity, is, port, in, out, end, architecture,
+    behavioral, of, std_logic_vector, std_logic, downto, component
+  },
+  keywordstyle=\color{blue}\bfseries,
+  sensitive=false,
+  comment=[l]--,
+  commentstyle=\color{green!60!black}\itshape,
+  string=[b]",
+  stringstyle=\color{red}
+}
+
+% Set default style for VHDL code
+\lstset{
+  language=VHDL,
+  basicstyle=\ttfamily\small,
+  numbers=none,           % No line numbers
+  backgroundcolor={},     % No background color
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=2,
+  captionpos=b,
+  breaklines=true,
+  breakatwhitespace=false,
+  frame=none             % Removes the frame/box
+}
